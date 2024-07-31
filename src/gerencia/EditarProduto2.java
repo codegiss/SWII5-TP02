@@ -1,5 +1,8 @@
 package gerencia;
 
+//Giselle Souza - CB3020339
+//Lucas Gomes - CB3021777
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
