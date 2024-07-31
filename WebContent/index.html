@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Produtos</title>
+</head>
+<body>
+	<h1>Adicionar novo produto</h1>
+	<form action="AdicionarProduto" method="post">
+		<table>
+			<tr><td>Nome:</td><td><input type="text" name="nome"/></td></tr>
+			<tr><td>Unidade compra:</td><td><input type="number" step="1" name="unidadeCompra"/></td></tr>
+			<tr><td>Descrição:</td><td><input type="text" name="descricao"/></td></tr>
+			<tr><td>Quantidade prevista no mês:</td><td><input type="text" name="qtdPrevistoMes"/></td></tr>
+			<tr><td>Preço máximo comprado:</td><td><input type="number" name="precoMaxComprado"/></td></tr>
+			
+			<tr><td colspan="2"><input type="submit" value="Salvar produto"/></td></tr>
+		</table>
+	</form>
+	
+	<br/>
+	<a href="VerProdutos">Ver produtos</a>
+	<br/>
+	<a href="creditos.html">Créditos da dupla</a>
+</body>
+</html>
